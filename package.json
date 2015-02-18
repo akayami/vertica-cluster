@@ -1,0 +1,27 @@
+{
+  "name": "vertica-cluster",
+  "version": "0.0.1",
+  "description": "Vertica cluster",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/akayami/vertica-cluster.git"
+  },
+  "author": "Tomasz Rakowski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akayami/vertica-cluster/issues"
+  },
+  "homepage": "https://github.com/akayami/vertica-cluster",
+  "dependencies": {
+    "item-pool": "0.0.4",
+    "merge": "^1.2.0",
+    "vertica": "^0.5.3"
+  },
+  "devDependencies": {
+    "mocha": "^2.1.0"
+  }
+}
